@@ -62,7 +62,10 @@ return [
         'deny_referee' => [
             'request_denied' => 'Your request to become a referee has been denied.',
             'already_denied' => 'This user has already been denied.'
-        ]
+        ],
+        'start_tournament' => [
+            'success' => 'The tournament has been started.',
+            'failed' => 'Attempt to start tournament failed' 
+        ],
     ],
-
 ];

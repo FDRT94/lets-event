@@ -42,7 +42,7 @@ return [
         ],
         'request_referee' => [
             'already_requested' => 'Je hebt al een verzoek tot scheidsrechter gedaan.'
-        ]
+        ],   
     ],
     'tournament_admin' => [
         'delete_user' => [
@@ -62,6 +62,10 @@ return [
         'deny_referee' => [
             'request_denied' => 'Je aanvraag om een scheidsrechter te worden is afgewezen.',
             'already_denied' => 'Deze gebruiker is al eens afgewezen.'
+        ],
+        'start_tournament' => [
+            'succes' => 'Het toernooi is gestart.',
+            'failed' => 'poging tot starten mislukt' 
         ]
     ],
 

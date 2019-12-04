@@ -268,8 +268,11 @@ class TournamentAdminController extends Controller
             'status' => 'Gestart'
         ]);
 
+        // als de poging tot starten faalt 
+        //  stuur een foutmelding met message start_tournament.failed
+
          // Redirect terug naar de vorige pagina.
-         return redirect('tournament')->with('message', 'Het toernooi is gestart.');
+         return redirect('tournament')->with('message', __('app_messages.tournament_admin.start_tournament.success'));
     }
 
 }
